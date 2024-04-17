@@ -1,0 +1,46 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.btn-nav{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-title-color{
+    color: #FD6E0A;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
