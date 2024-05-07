@@ -146,4 +146,54 @@ nav a{
 
 .resume-container{
     display: flex;
+    gap: 20px;
+}
+
+.resume-button{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    
+}
+.download-resume{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 50px 100px;
+    margin-top: 30px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+font-size: 18px;
+color: #757575;
+border-radius: 5px;
+border: 0;
+background-color: #fff;
+width: 100%;
+}
+
+.footer-submit-button{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-right: 20px;
 }
